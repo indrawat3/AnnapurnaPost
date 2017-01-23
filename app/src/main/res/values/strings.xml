@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Annapurna Post</string>
+    <string name="draweropen">drawer open</string>
+    <string name="drawerclose">drawer close</string>
+</resources>
