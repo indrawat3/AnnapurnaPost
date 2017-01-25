@@ -1,14 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <group>
+    <group
+        android:id="@+id/group_one"
+        android:checkableBehavior="single">
     <item
-        android:id="@+id/menu_home"
-        android:title="Home"
-    ></item>
-    <item
-        android:id="@+id/menu_message"
-        android:title="Messages"
+        android:checked="true"
+        android:icon="@mipmap/home"
+        android:id="@+id/click_mainpage"
+        android:title="मुख्य पृष्ठ"
         ></item>
-
+        <item
+            android:checked="false"
+            android:icon="@mipmap/news"
+            android:id="@+id/click_samachar"
+            android:title="समाचार"
+            ></item>
+        <item
+            android:checked="false"
+            android:icon="@mipmap/others"
+            android:id="@+id/click_others"
+            android:title="अन्य"
+            ></item>
+        <item
+            android:checked="false"
+            android:icon="@mipmap/annapurna_tv"
+            android:id="@+id/click_annapurnatv"
+            android:title="अन्नपूर्ण टिभि"
+            ></item>
+        <item
+            android:checked="false"
+            android:icon="@mipmap/gallery_clicks"
+            android:id="@+id/click_glamourclicks"
+            android:title="ग्लायामर क्लिक्स"
+            ></item>
+        <item
+            android:checked="false"
+            android:icon="@mipmap/epaper"
+            android:id="@+id/click_epaper"
+            android:title="ई पेपर"
+            ></item>
 </group>
+    <group
+        android:id="@+id/group_two"
+        android:checkableBehavior="single">
+        <item
+            android:checked="false"
+            android:icon="@mipmap/about_us"
+            android:id="@+id/click_aboutus"
+            android:title="हाम्रो बारे ">
+            </item>
+        <item
+            android:checked="false"
+            android:icon="@mipmap/contact"
+            android:id="@+id/click_contact"
+            android:title="सम्पर्क">
+        </item>
+        <item
+            android:checked="false"
+            android:icon="@mipmap/social_media"
+            android:id="@+id/click_socialmedia"
+            android:title="सोसल मीडिया">
+        </item>
+    </group>
+    <group
+        android:id="@+id/group_three"
+        android:checkableBehavior="single">
+        <item
+            android:checked="false"
+            android:icon="@mipmap/advertisement"
+            android:id="@+id/click_advertisement"
+            android:title="बिज्ञापनका लागी">
+        </item>
+        <item
+            android:checked="false"
+            android:icon="@mipmap/be_a_customer"
+            android:id="@+id/click_customers"
+            android:title="ग्राहक बन्नुहोस">
+        </item>
+    </group>
 </menu>
